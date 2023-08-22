@@ -14,7 +14,7 @@ html,body
 {
     height: 100%;
     width: 100%;
-    background-color:#d0d4d5 ;
+    
     position: relative;
 }
 #nav
@@ -128,9 +128,10 @@ html,body
     position: absolute;
     bottom: 0;
     right: 0;
-    background-color: #D0D4D5;
+    background-color: black;
     padding: 12px 30px;
     border-radius: 6px;
+    color: white;
 }
 
 .element h5
@@ -172,3 +173,18 @@ html,body
   .dropdown-content a:hover {background-color: #ddd;}
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .change
+  {
+    background-color: black;
+    color: white;
+  }
+  .bks
+  {
+    position: absolute;
+    left: 150px;
+    top: 18px;
+    color: white;
+    background-color: #04AA6D;
+    padding: 15px 40px;
+  }
